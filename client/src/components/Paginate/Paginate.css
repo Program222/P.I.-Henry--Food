@@ -1,0 +1,44 @@
+.paginate-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  background-color: var(--color-secondary-900);
+}
+.numDeco,
+.btnNB {
+  font-size: 16px;
+  width: 48px;
+  padding: 8px 14px;
+  text-align: center;
+  background: var(--color-secondary-500);
+  color: #fff;
+  border: solid 1px var(--color-secondary-900);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.numDecoActive {
+  font-size: 16px;
+  width: 48px;
+  padding: 8px 14px;
+  text-align: center;
+  background: #fff;
+  color: #000;
+  border: solid 1px var(--color-secondary-900);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.numDeco:hover,
+.btnNB:hover {
+  background: #fff;
+  color: #000;
+}
+
+.btnNB {
+  background: var(--color-primary-600);
+  color: #000;
+}
