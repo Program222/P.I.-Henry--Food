@@ -1,0 +1,24 @@
+.search {
+    display: flex;
+    justify-content: center;
+}
+.input {
+    background-color: rgba(48, 30, 9, 0.2);
+    border: dashed 0.5px;
+    outline: none;
+    padding: 7px 22px;
+    border-radius: 11%;
+}
+.btn {
+    background-color: #26a69a;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 22px;
+    margin-top: 1rem;
+    padding: 3px;
+    border: ridge;
+    transition: 0.4s linear;
+}
+.btn:hover {
+    background-color: #0f6d64;
+}

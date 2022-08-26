@@ -1,0 +1,30 @@
+.fondo {
+    background: url(../../image/fondo2.webp) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+    /*Probar*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 55vh;
+    height: 5vh;
+    margin-top: 8vh;
+    transition: 0.5s linear;
+    font-size: 30px;
+    text-align: center;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(34, 255, 0);
+    cursor: pointer;
+    border: none;
+}
+
+.box:hover {
+    color: aqua;
+}
