@@ -48,11 +48,11 @@ export default function Filters({ setCurrentPage, setOrder }) {
                 <Search />
             </div>
             <div>
-                <label className={style.tipo}>Filter C-A</label>
+                <label className={style.tipo}>Filter Created/Api</label>
                 <select onChange={(e) => handleCreated(e)}>
-                    <option value="all">ALL</option>
-                    <option value="created">CREATED</option>
-                    <option value="api">API</option>
+                    <option value="all">All</option>
+                    <option value="created">Created</option>
+                    <option value="api">Api</option>
                 </select>
             </div>
             <div>

@@ -7,9 +7,9 @@
 select {
     margin: 1rem;
     padding: 1px 18px;
-    border: none;
     outline: none;
-    background-color: rgba(48, 30, 9, 0.3);
+    background-color:rgb(43, 43, 43);
+    border: ridge 2px goldenrod;
     border-radius: 15%;
 }
 .input {
@@ -19,5 +19,5 @@ select {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
     font-weight: bold;
-    color: rgba(14, 7, 208, 0.837);
+    color: rgba(255, 255, 255, 0.837);
 }

@@ -1,6 +1,9 @@
 const { Router } = require('express');
 const { getAllDiet } = require('../controllers/Diet.Cont.js');
 const router = Router();
+
+
+
 router.get('/', async (req, res) => {
     try {
         const dieta = await getAllDiet();
@@ -9,4 +12,6 @@ router.get('/', async (req, res) => {
         console.log(error);
     }
 });
+
+
 module.exports = router;

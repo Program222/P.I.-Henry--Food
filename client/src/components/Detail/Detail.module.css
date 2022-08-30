@@ -1,41 +1,31 @@
-/* html body {
-    background: url(../../image/amari.jpg) no-repeat center fixed;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-
-    Probar
-} */
 .fondo {
+    background: url(../../image/detailFond.webp) no-repeat center fixed;
+    background-size: 1080px 530px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .box {
+    display: inline-block;
     width: 25vh;
     height: 5vh;
-    margin-top: 1.2vh;
-    font-size: 20px;
-    color: rgb(21, 0, 255);
+    font-size:medium;
+    font-weight: bolder;
     text-align: center;
-    background: transparent;
-    /* border-color: red; */
     transition: 0.19s linear;
     cursor: pointer;
-    border: none;
     margin-bottom: 10px;
     margin-top: 10px;
+    box-sizing: content-box;
+    background-color: rgb(49, 49, 49);
+    color: black;
+
+    border-color: goldenrod;
 }
 .box:hover {
-    color: rgb(234, 255, 0);
-    background-color: blueviolet;
+    color: rgb(0, 0, 0);
+    background-color: darkgray;
     border-radius: 50%;
-}
-.parrafo {
-    padding: 0px 20% 0px 20%;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    margin-bottom: 240px;
 }
 
 .pasos {
@@ -48,10 +38,6 @@
 .cargando {
     padding-top: 17%;
 }
-.nopasos {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
 .otro {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -61,10 +47,46 @@
     flex-direction: column;
 }
 .sub {
-    text-decoration: underline;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 0px 240px 0px 240px;
+    font-family: cursive;
+    padding: 0px 240px 0px 240px; 
+    border: goldenrod double 1px;
+    background-color: rgb(49, 49, 49);
+    color: black;
+    font-size:medium;
+    font-weight: bold;
 }
 .img {
     border-radius: 15%;
+}
+.subtitulosA {
+    color: rgb(246, 247, 184);
+    font-family: cursive;
+    font-weight: bold;
+    font-size:large;
+    text-decoration:underline;
+}
+.nopasos {
+    color: rgb(246, 247, 184); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+.health {
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-weight: bold;
+    font-size:large;
+    border: solid 2px red;
+    border-radius: 30%;
+    background-color: rgb(255, 230, 0); 
+    display: inline-block;
+    
+}
+.parrafo {
+    padding: 0px 20% 0px 40%;
+    margin-bottom: 450px;
+    color: rgb(255, 255, 255); 
+    font-family: cursive;
+    font-weight: bold;
+    font-size: larger;
 }

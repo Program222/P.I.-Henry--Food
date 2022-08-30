@@ -106,14 +106,14 @@ export default function Creation() {
                     <button className={style.box}>Back to Home</button>
                 </Link>
             </div>
-            <h2 className={style.h2}>Create your recipe</h2>
+            <h2 className={style.h2}>Create Your own Recipe!</h2>
             <form onSubmit={(e) => handleSubmit(e)} className={style.fondoform}>
                 <button type="submit" className={style.boxes}>
                     Create
                 </button>
                 <div>
                     <div className={style.primero}>
-                        <label className={style.definicion}>NAME:</label>
+                        <label className={style.definicion}>NAME</label>
                         <input
                             className={style.inputt}
                             type="text"
@@ -127,7 +127,7 @@ export default function Creation() {
                         )}
                     </div>
                     <div className={style.primero}>
-                        <label className={style.definicion}>Image:</label>
+                        <label className={style.definicion}>Image</label>
                         <input
                             className={style.inputt}
                             type="text"
@@ -143,7 +143,7 @@ export default function Creation() {
                     {/* <br /> */}
                     <div className={style.primero}>
                         <label className={style.definicion}>
-                            Health Score:
+                            Health Score
                         </label>
                         <input
                             className={style.inputt}
@@ -160,7 +160,7 @@ export default function Creation() {
                     </div>
                     <div className={style.primero}>
                         <label className={style.definicion}>
-                            Type of Dish:
+                            Type of Dish
                         </label>
                         <input
                             type="text"
@@ -179,7 +179,7 @@ export default function Creation() {
                     {/* <br /> */}
                     <div className={style.primero}>
                         <label className={style.definicion}>
-                            Step By Step:
+                            Step By Step
                         </label>
                         <textarea
                             className={style.inputl}
@@ -193,7 +193,7 @@ export default function Creation() {
                         )}
                     </div>
                     <div className={style.primero}>
-                        <label className={style.definicion}>Summary:</label>
+                        <label className={style.definicion}>Summary</label>
                         {/* <input
                         type="text"
                         value={input.summary}
@@ -213,7 +213,7 @@ export default function Creation() {
                     </div>
                     {/* <br /> */}
                     <div className={style.definicion2}>
-                        <label>Diets:</label>
+                        
                         <select
                             onChange={(e) => handleSelect(e)}
                             className={style.select}

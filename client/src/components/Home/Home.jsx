@@ -14,8 +14,8 @@ export default function Home() {
     const [loading, setLoading] = useState(true);
     //paginado
     const [currentPage, setCurrentPage] = useState(1);
-    const [recipeForPage, setRecipeForPage] = useState(9);
-    const [order, setOrder] = useState('');
+    const [recipeForPage] = useState(9);
+    const [ setOrder] = useState('');
     const indexLastR = currentPage * recipeForPage;
     const indexFirtsR = indexLastR - recipeForPage;
     const allrecipes = recipes.slice(indexFirtsR, indexLastR);

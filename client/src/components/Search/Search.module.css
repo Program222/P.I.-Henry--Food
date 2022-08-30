@@ -3,22 +3,22 @@
     justify-content: center;
 }
 .input {
-    background-color: rgba(48, 30, 9, 0.2);
-    border: dashed 0.5px;
+    background-color:rgb(43, 43, 43);
+    border: ridge 2px goldenrod;
     outline: none;
     padding: 7px 22px;
-    border-radius: 11%;
 }
 .btn {
-    background-color: #26a69a;
-    color: #fff;
+    background-color:rgb(43, 43, 43);
+    color: rgba(219, 204, 204, 0.724);
     cursor: pointer;
     border-radius: 22px;
     margin-top: 1rem;
     padding: 3px;
-    border: ridge;
+    border: ridge 2px goldenrod;
     transition: 0.4s linear;
 }
 .btn:hover {
-    background-color: #0f6d64;
+    color: rgb(0, 0, 0);
+    background-color: darkgray
 }

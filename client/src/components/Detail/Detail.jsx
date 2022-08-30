@@ -2,8 +2,7 @@ import React, { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import {
     getDetail,
-    cleanDiets,
-    cleanRecipe,
+    
     cleanDetail,
 } from '../../redux/actions';
 import { useDispatch, useSelector } from 'react-redux';
@@ -36,32 +35,31 @@ export default function Detail() {
                             width={'250px'}
                             height={'250px'}
                         />
-                        <h3>Diets:</h3>
+                        <h3 className={style.subtitulosA}>Diets:</h3>
                         {detalles[0].diets.length === 0 ? (
                             <p className={style.nopasos}>There is no diet </p>
                         ) : (
                             <p className={style.nopasos}>
-                                {detalles[0].diets.map((e) => e.name + ',')}
+                                {detalles[0].diets.map((e) => e.name + ', ')}
                             </p>
                         )}
                     </div>
                     <div>
-                        <h3>Health Score: {detalles[0].health_score}º</h3>
-                        <h3>Type of dish:</h3>
+                        <h3 className={style.health}>Health Score: {detalles[0].health_score}º</h3>
+                        <h3 className={style.subtitulosA}>Type of dish:</h3>
                         <p className={style.nopasos}>
                             {detalles[0].dishtypes.toString()}
                         </p>
-                        <h4>Summary:</h4>
+                        <h4 className={style.subtitulosA}>Summary:</h4>
                         {detalles[0].summary.length === 0 ? (
                             <p className={style.parrafo}>There is no Summary</p>
                         ) : (
                             <p className={style.parrafo}>
                                 {detalles[0].summary.replace(/<[^>]*>/g, '')}
-                            </p>
-                        )}
+                            </p>                        )}
                     </div>
                     <div className={style.step}>
-                        <h4>Step By Step:</h4>
+                        <h4 className={style.subtitulosA}>Step By Step:</h4>
                         {!detalles[0].step_by_step ? (
                             <p className={style.nopasos}>
                                 There is no step by step
